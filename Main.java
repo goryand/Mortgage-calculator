@@ -34,6 +34,6 @@ public class Main {
         String FinalMortgage = NumberFormat.getCurrencyInstance().format(InitialMortgage);
         System.out.println("Calculated mortgage: " + FinalMortgage + " per month");
 
-        scanner.close()
+        scanner.close();
     }
 }
